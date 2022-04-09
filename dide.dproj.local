@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.539,C:\Qt\Projects\craftware\dlang\dide\UFrmMain.pas=C:\Qt\Projects\craftware\dlang\dide\UFrmIdeBase.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.440,C:\D\dide\Unit1.dfm=C:\D\dide\UFrmPoti.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,=C:\Qt\Projects\craftware\dlang\dide\UFrmHelp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.539,C:\Qt\Projects\craftware\dlang\dide\UFrmMain.dfm=C:\Qt\Projects\craftware\dlang\dide\UFrmIdeBase.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.314,C:\Qt\Projects\craftware\dlang\dide\dide.dproj=C:\Users\het\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,=C:\Qt\Projects\craftware\dlang\dide\UFrmCodeInsight.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.401,C:\D\dide\UHDMD.pas=C:\D\dide\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.560,C:\Qt\Projects\craftware\dlang\dide\UFrmHelp.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.440,C:\D\dide\Unit1.pas=C:\D\dide\UFrmPoti.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.993,C:\D\dide\Unit1.pas=C:\D\dide\UCircBuf.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.519,=C:\Qt\Projects\craftware\dlang\dide\UFrmIdeBase.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.658,=C:\D\dide\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,=C:\Users\het\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,=C:\D\dide\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.174,=C:\D\dide\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

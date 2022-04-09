@@ -1,0 +1,25 @@
+#ignore all except...
+*
+
+#included filenames
+!.gitignore
+!*.d
+!*.pas
+!*.dfm
+!*.dpr
+!*.ico
+!*.res
+!*.dproj
+!*.dsk
+!*.local
+!*.dat
+!*.txt
+!dide.exe
+!hldc.exe
+!dsyntax.dll
+
+
+#included directories
+#!examplepath/
+!Win32/
+!Debug/

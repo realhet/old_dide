@@ -1,0 +1,113 @@
+object FrmPoti: TFrmPoti
+  Left = 0
+  Top = 0
+  BorderStyle = bsToolWindow
+  Caption = 'Poti'
+  ClientHeight = 176
+  ClientWidth = 410
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Slider1: TSlider
+    Left = 8
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 0
+    Caption = 'P0'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 4
+  end
+  object Slider2: TSlider
+    Left = 56
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 1
+    Caption = 'P1'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 4
+  end
+  object Slider3: TSlider
+    Left = 104
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 2
+    Caption = 'P2'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 4
+  end
+  object Slider4: TSlider
+    Left = 152
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 3
+    Caption = 'P3'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 4
+  end
+  object Slider5: TSlider
+    Left = 216
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 4
+    Caption = 'P4'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 1
+  end
+  object Slider6: TSlider
+    Left = 264
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 5
+    Caption = 'P5'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 1
+  end
+  object Slider7: TSlider
+    Left = 312
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 6
+    Caption = 'P6'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 1
+  end
+  object Slider8: TSlider
+    Left = 360
+    Top = 8
+    Width = 41
+    Height = 160
+    TabOrder = 7
+    Caption = 'P7'
+    Max = 1.000000000000000000
+    ShowValue = True
+    KnobColor = 1
+  end
+  object tUpdate: TTimer
+    Interval = 5
+    OnTimer = tUpdateTimer
+    Left = 80
+    Top = 48
+  end
+end
