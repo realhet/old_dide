@@ -1564,9 +1564,13 @@ procedure TFrmMain.CompileAndRun(doRun, doRebuild:boolean);
   end;
 
 var dt:TDeltaTime;
-    i:integer;
+    i,j:integer;
+    s:string;
+    ignoreLastException:boolean;
 begin
+  ignoreLastException := false;
   try
+    //todo: check if it runs at all
     ShellExecute(Handle, 'open', Pchar('C:\Windows\System32\schtasks.exe'), PChar('/RUN /TN "My\hldc"'), '', SW_HIDE);
   finally
   end;
@@ -1611,18 +1615,30 @@ begin
       //jump to the first error
       i:=listCount(hdmdOut, #10);
       if hdmdOut='' then inc(i);
-      if lbCompileOutput.Items.Count>0 then begin
-        lbCompileOutput.ItemIndex:=lbCompileOutput.Items.Count-1;
-        lbCompileOutput.ItemIndex:=i;
+
+      //220412: only jump on "Error:" lines
+      for j := i to lbCompileOutput.Items.Count-1 do begin
+        s := lbCompileOutput.Items.Strings[j];
+        if pos('Error:', s, [poIgnoreCase])>0 then begin
+          i := j;
+          break;
+        end;
       end;
 
+      if lbCompileOutput.Items.Count>0 then lbCompileOutput.ItemIndex:=lbCompileOutput.Items.Count-1;
+      if lbCompileOutput.Items.Count>0 then lbCompileOutput.ItemIndex:=i;
+
       //goto error if can
-      if(i>=0)and(i<lbCompileOutput.items.Count)then GotoError(lbCompileOutput.Items[i]);
+      if(i>=0)and(i<lbCompileOutput.items.Count)then begin
+        s := lbCompileOutput.Items.Strings[i];
+        GotoError(s);
+        ignoreLastException := true;
+      end;
     end;
     Status:='Compiled in: '+dt.SecStr+' seconds';
   except
     on e:exception do begin
-      GotoError(e.Message);
+      if not ignoreLastException then GotoError(e.Message);
     end;
   end;
 end;
