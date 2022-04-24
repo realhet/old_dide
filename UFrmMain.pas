@@ -1619,7 +1619,7 @@ begin
       //220412: only jump on "Error:" lines
       for j := i to lbCompileOutput.Items.Count-1 do begin
         s := lbCompileOutput.Items.Strings[j];
-        if pos('Error:', s, [poIgnoreCase])>0 then begin
+        if (pos('Error:', s, [poIgnoreCase])>0) and (s<>'Error: Process has been killed.') then begin
           i := j;
           break;
         end;
