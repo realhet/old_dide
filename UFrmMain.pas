@@ -1656,11 +1656,9 @@ end;
 
 procedure TFrmMain.mRunProgramResetClick(Sender: TObject);
 begin
-  if exeIsWaiting then begin
-    DebugLogServer.data.dide_ack:=-1;
-    DebugLogServer.data.force_exit:=1;
-  end;
+  DebugLogServer.data.dide_ack:=-1;
   DebugLogServer.data.force_exit:=1;
+  DebugLogServer.data.exe_waiting:=0; //220429: This is needed when the exe is dead. It resets the IDE *break* state.
 end;
 
 procedure TFrmMain.mDebugModeToggleClick(Sender: TObject);

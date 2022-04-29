@@ -57,8 +57,6 @@ object FrmMain: TFrmMain
         Width = 50
       end>
     OnDrawPanel = StatusBarDrawPanel
-    ExplicitTop = 835
-    ExplicitWidth = 1494
   end
   object pLeft: TPanel
     Left = 0
@@ -68,23 +66,20 @@ object FrmMain: TFrmMain
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 1494
-    ExplicitHeight = 680
     object pbDebugLeds: THetPaintBox
       Left = 0
       Top = 0
-      Width = 1494
+      Width = 1020
       Height = 16
       Align = alTop
       OnPaint = pbDebugLedsPaint
       ExplicitTop = -6
-      ExplicitWidth = 1020
     end
     object pcEditor: TPageControl
       Left = 0
       Top = 16
-      Width = 1494
-      Height = 612
+      Width = 1020
+      Height = 479
       Align = alClient
       MultiLine = True
       OwnerDraw = True
@@ -93,8 +88,8 @@ object FrmMain: TFrmMain
     end
     object pFindReplace: TPanel
       Left = 0
-      Top = 628
-      Width = 1494
+      Top = 495
+      Width = 1020
       Height = 52
       Align = alBottom
       BevelOuter = bvNone
@@ -102,7 +97,6 @@ object FrmMain: TFrmMain
       ParentColor = True
       TabOrder = 1
       Visible = False
-      ExplicitTop = 627
       DesignSize = (
         1020
         52)
@@ -183,7 +177,7 @@ object FrmMain: TFrmMain
         OnKeyDown = cbFindKeyDown
       end
       object bFindClose: TButton
-        Left = -1391
+        Left = -3287
         Top = 0
         Width = 38
         Height = 24
@@ -192,7 +186,6 @@ object FrmMain: TFrmMain
         TabOrder = 9
         OnClick = cFindCloseClick
         OnKeyDown = cbFindKeyDown
-        ExplicitLeft = 1453
       end
       object chCaseSensitive: TCheckBox
         Left = 228
@@ -213,19 +206,13 @@ object FrmMain: TFrmMain
     ActivePage = tsCompile
     Align = alBottom
     TabOrder = 2
-    ExplicitTop = 685
-    ExplicitWidth = 1494
     object tsCompile: TTabSheet
       Caption = 'Compiler Output'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object lbCompileOutput: TListBox
         Left = 0
         Top = 0
-        Width = 1486
+        Width = 1012
         Height = 122
         Style = lbOwnerDrawFixed
         Align = alClient
@@ -244,10 +231,6 @@ object FrmMain: TFrmMain
     end
     object tsDebug: TTabSheet
       Caption = 'Debug Log'
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object lbLog: TListBox
         Left = 0
         Top = 0
@@ -286,7 +269,7 @@ object FrmMain: TFrmMain
     Left = 376
     Top = 216
     Bitmap = {
-      494C01019B00C000800110001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01019B00C000900110001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000007002000001002000000000000070
       0200000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
