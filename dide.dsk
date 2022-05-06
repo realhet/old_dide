@@ -17,14 +17,19 @@ File_14=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE
 
 [Modules]
 Module0=C:\D\dide\UFrmMain.pas
-Module1=C:\D\dide\dide.dproj
-Module2=f:\hetlib\het.Utils.pas
-Module3=C:\D\dide\UFrmCodeInsight.pas
+Module1=C:\D\dide\UFrmCodeInsight.pas
+Module2=C:\D\dide\dide.dproj
+Module3=f:\hetlib\het.Utils.pas
 Module4=default.htm
 Count=5
 EditWindowCount=1
 
 [C:\D\dide\UFrmMain.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[C:\D\dide\UFrmCodeInsight.pas]
 ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
@@ -35,11 +40,6 @@ ModuleType=TBaseProject
 [f:\hetlib\het.Utils.pas]
 ModuleType=TSourceModule
 FormState=0
-FormOnTop=0
-
-[C:\D\dide\UFrmCodeInsight.pas]
-ModuleType=TSourceModule
-FormState=1
 FormOnTop=0
 
 [default.htm]
@@ -95,14 +95,14 @@ TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=C:\D\dide\UFrmCodeInsight.pas
 
 [View2]
 CustomEditViewType=TEditView
 Module=C:\D\dide\UFrmMain.pas
-CursorX=58
-CursorY=1451
-TopLine=1422
+CursorX=3
+CursorY=1683
+TopLine=1693
 LeftCol=1
 Elisions=
 Bookmarks={1,1772,44}
@@ -244,8 +244,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1418
-Top=-12
+Left=-1536
+Top=-102
 Width=2844
 Height=6202
 MaxLeft=-1
@@ -264,7 +264,7 @@ Visible=0
 Docked=1
 State=0
 Left=-1728
-Top=269
+Top=-102
 Width=276
 Height=356
 MaxLeft=-1
@@ -438,7 +438,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=5221
-TBDockHeight=9135
+TBDockHeight=9019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -446,8 +446,8 @@ SplitPos=111
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Action,Images
-ExpandedItems=Images=0
+SelectedItem=Action,
+ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0
 
 [DataExplorer]
 PercentageSizes=1
@@ -458,11 +458,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=4356
+Height=8779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=4356
+ClientHeight=8779
 TBDockHeight=4885
 LRDockWidth=7151
 Dockable=1
@@ -477,11 +477,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=4356
+Height=8779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=4356
+ClientHeight=8779
 TBDockHeight=4885
 LRDockWidth=5307
 Dockable=1
@@ -494,7 +494,7 @@ Visible=0
 Docked=1
 State=0
 Left=-182
-Top=-100
+Top=-102
 Width=1844
 Height=3144
 MaxLeft=-1
@@ -644,7 +644,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=23
+Top=0
 Width=3823
 Height=1423
 MaxLeft=-1
@@ -675,7 +675,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4596
-TBDockHeight=6144
+TBDockHeight=9019
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
@@ -699,7 +699,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3558
-TBDockHeight=9135
+TBDockHeight=9019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -723,7 +723,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4183
-TBDockHeight=7231
+TBDockHeight=9019
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
