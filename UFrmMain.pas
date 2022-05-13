@@ -1389,6 +1389,14 @@ begin
       result.valid:=fileExists(result.filename);
       exit;
     end;
+    if IsWild2('*(*,*):   *', msg, result.fileName, sLine, sColumn, result.msg)then begin
+      result.typ:=etError;
+      result.line  :=StrToIntDef(sLine,   -1);
+      result.column:=StrToIntDef(sColumn, -1);
+      result.msg := TrimLeft(result.msg);
+      result.valid:=fileExists(result.filename);
+      exit;
+    end;
   end;
   result.valid:=false;
 end;

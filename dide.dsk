@@ -1,27 +1,27 @@
 ﻿[Closed Files]
 File_0=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\8.0\SOURCE\RTL\SYS\System.pas',0,1,14349,1,14370,0,0,,
-File_1=TSourceModule,'f:\hetlib\het.codeeditor.pas',0,1,1255,1,1280,0,0,,
-File_2=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\8.0\SOURCE\VCL\StdCtrls.pas',0,1,5372,1,5392,0,0,,
-File_3=TSourceModule,'C:\D\test_xxh3.d',0,1,1,1,1,0,0,,
-File_4=TSourceModule,'F:\HetLib\het.FileSys.pas',0,1,1,23,1,0,0,,
-File_5=TSourceModule,'C:\D\dide\UCircBuf.pas',0,1,1,1,1,0,0,,
-File_6=TSourceModule,'C:\D\dide\UHDMD.pas',0,1,1,23,4,0,0,,
-File_7=TSourceModule,'C:\D\dide\UFrmPoti.pas',0,1,1,11,8,0,0,,
-File_8=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.Controls.pas',0,1,9337,37,9370,0,0,,
-File_9=TSourceModule,'C:\HetLib\het.Parser.pas',0,1,1114,22,1005,0,0,,
-File_10=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\source\rtl\common\System.Classes.pas',0,1,2713,1,2736,0,0,,
-File_11=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\RTL\SYS\System.pas',0,1,15554,1,15575,0,0,,
-File_12=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.StdCtrls.pas',0,1,6232,1,6261,0,0,{{1649,4}
-File_13=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.Forms.pas',0,1,6584,1,6605,0,0,{{1693,4}
-File_14=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.ComCtrls.pas',0,1,7014,1,7037,0,0,{{16974,0}
+File_1=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\8.0\SOURCE\VCL\StdCtrls.pas',0,1,5372,1,5392,0,0,,
+File_2=TSourceModule,'C:\D\test_xxh3.d',0,1,1,1,1,0,0,,
+File_3=TSourceModule,'F:\HetLib\het.FileSys.pas',0,1,1,23,1,0,0,,
+File_4=TSourceModule,'C:\D\dide\UCircBuf.pas',0,1,1,1,1,0,0,,
+File_5=TSourceModule,'C:\D\dide\UHDMD.pas',0,1,1,23,4,0,0,,
+File_6=TSourceModule,'C:\D\dide\UFrmPoti.pas',0,1,1,11,8,0,0,,
+File_7=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.Controls.pas',0,1,9337,37,9370,0,0,,
+File_8=TSourceModule,'C:\HetLib\het.Parser.pas',0,1,1114,22,1005,0,0,,
+File_9=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\source\rtl\common\System.Classes.pas',0,1,2713,1,2736,0,0,,
+File_10=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\RTL\SYS\System.pas',0,1,15554,1,15575,0,0,,
+File_11=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.StdCtrls.pas',0,1,6232,1,6261,0,0,{{1649,4}
+File_12=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.Forms.pas',0,1,6584,1,6605,0,0,{{1693,4}
+File_13=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.ComCtrls.pas',0,1,7014,1,7037,0,0,{{16974,0}
 
 [Modules]
 Module0=C:\D\dide\UFrmMain.pas
-Module1=C:\D\dide\UFrmCodeInsight.pas
+Module1=f:\hetlib\het.codeeditor.pas
 Module2=C:\D\dide\dide.dproj
-Module3=f:\hetlib\het.Utils.pas
-Module4=default.htm
-Count=5
+Module3=C:\D\dide\UFrmCodeInsight.pas
+Module4=f:\hetlib\het.Utils.pas
+Module5=default.htm
+Count=6
 EditWindowCount=1
 
 [C:\D\dide\UFrmMain.pas]
@@ -29,13 +29,18 @@ ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
 
-[C:\D\dide\UFrmCodeInsight.pas]
+[f:\hetlib\het.codeeditor.pas]
 ModuleType=TSourceModule
-FormState=1
+FormState=0
 FormOnTop=0
 
 [C:\D\dide\dide.dproj]
 ModuleType=TBaseProject
+
+[C:\D\dide\UFrmCodeInsight.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
 
 [f:\hetlib\het.Utils.pas]
 ModuleType=TSourceModule
@@ -46,13 +51,14 @@ FormOnTop=0
 ModuleType=TURLModule
 
 [EditWindow0]
-ViewCount=5
+ViewCount=6
 CurrentEditView=C:\D\dide\UFrmMain.pas
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
+View5=5
 PercentageSizes=1
 Create=1
 Visible=1
@@ -100,15 +106,26 @@ EditViewName=C:\D\dide\UFrmCodeInsight.pas
 [View2]
 CustomEditViewType=TEditView
 Module=C:\D\dide\UFrmMain.pas
-CursorX=3
-CursorY=1683
-TopLine=1693
+CursorX=76
+CursorY=1850
+TopLine=1833
 LeftCol=1
 Elisions=
-Bookmarks={1,1772,44}
+Bookmarks={1,1780,44}
 EditViewName=C:\D\dide\UFrmMain.pas
 
 [View3]
+CustomEditViewType=TEditView
+Module=f:\hetlib\het.codeeditor.pas
+CursorX=24
+CursorY=15
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=f:\hetlib\het.codeeditor.pas
+
+[View4]
 CustomEditViewType=TEditView
 Module=f:\hetlib\het.Utils.pas
 CursorX=27
@@ -119,7 +136,7 @@ Elisions=
 Bookmarks=
 EditViewName=f:\hetlib\het.Utils.pas
 
-[View4]
+[View5]
 CustomEditViewType=TEditView
 Module=C:\D\dide\dide.dpr
 CursorX=22
@@ -244,8 +261,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1536
-Top=-102
+Left=-1418
+Top=-12
 Width=2844
 Height=6202
 MaxLeft=-1
@@ -264,7 +281,7 @@ Visible=0
 Docked=1
 State=0
 Left=-1728
-Top=-102
+Top=269
 Width=276
 Height=356
 MaxLeft=-1
@@ -368,11 +385,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1000
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1000
 TBDockHeight=2317
 LRDockWidth=2823
 Dockable=1
@@ -438,16 +455,11 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=5221
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
 SplitPos=111
-
-[PropInspDesignerSelection]
-ArrangeBy=Name
-SelectedItem=Action,
-ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0
 
 [DataExplorer]
 PercentageSizes=1
@@ -458,11 +470,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8779
+Height=6779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8779
+ClientHeight=6779
 TBDockHeight=4885
 LRDockWidth=7151
 Dockable=1
@@ -477,11 +489,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8779
+Height=6779
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8779
+ClientHeight=6779
 TBDockHeight=4885
 LRDockWidth=5307
 Dockable=1
@@ -493,8 +505,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-182
-Top=-102
+Left=-363
+Top=-100
 Width=1844
 Height=3144
 MaxLeft=-1
@@ -644,7 +656,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=0
+Top=23
 Width=3823
 Height=1423
 MaxLeft=-1
@@ -699,7 +711,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3558
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -723,7 +735,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4183
-TBDockHeight=9019
+TBDockHeight=7019
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0

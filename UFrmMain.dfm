@@ -209,6 +209,10 @@ object FrmMain: TFrmMain
     object tsCompile: TTabSheet
       Caption = 'Compiler Output'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object lbCompileOutput: TListBox
         Left = 0
         Top = 0
@@ -231,6 +235,10 @@ object FrmMain: TFrmMain
     end
     object tsDebug: TTabSheet
       Caption = 'Debug Log'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object lbLog: TListBox
         Left = 0
         Top = 0
@@ -269,7 +277,7 @@ object FrmMain: TFrmMain
     Left = 376
     Top = 216
     Bitmap = {
-      494C01019B00C000900110001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01019B00C000940110001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000007002000001002000000000000070
       0200000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
