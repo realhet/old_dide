@@ -15,14 +15,24 @@ File_12=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE
 File_13=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.ComCtrls.pas',0,1,7014,1,7037,0,0,{{16974,0}
 
 [Modules]
-Module0=f:\hetlib\het.Utils.pas
-Module1=C:\D\dide\dide.dproj
-Module2=f:\hetlib\het.codeeditor.pas
-Module3=C:\D\dide\UFrmMain.pas
+Module0=C:\D\dide\UFrmMain.pas
+Module1=f:\hetlib\het.codeeditor.pas
+Module2=f:\hetlib\het.Utils.pas
+Module3=C:\D\dide\dide.dproj
 Module4=C:\D\dide\UFrmCodeInsight.pas
 Module5=default.htm
 Count=6
 EditWindowCount=1
+
+[C:\D\dide\UFrmMain.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[f:\hetlib\het.codeeditor.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
 
 [f:\hetlib\het.Utils.pas]
 ModuleType=TSourceModule
@@ -31,16 +41,6 @@ FormOnTop=0
 
 [C:\D\dide\dide.dproj]
 ModuleType=TBaseProject
-
-[f:\hetlib\het.codeeditor.pas]
-ModuleType=TSourceModule
-FormState=0
-FormOnTop=0
-
-[C:\D\dide\UFrmMain.pas]
-ModuleType=TSourceModule
-FormState=1
-FormOnTop=0
 
 [C:\D\dide\UFrmCodeInsight.pas]
 ModuleType=TSourceModule
@@ -52,7 +52,7 @@ ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=6
-CurrentEditView=f:\hetlib\het.Utils.pas
+CurrentEditView=C:\D\dide\UFrmMain.pas
 View0=0
 View1=1
 View2=2
@@ -106,8 +106,8 @@ EditViewName=C:\D\dide\UFrmCodeInsight.pas
 [View2]
 CustomEditViewType=TEditView
 Module=C:\D\dide\UFrmMain.pas
-CursorX=21
-CursorY=1407
+CursorX=1
+CursorY=1398
 TopLine=1364
 LeftCol=1
 Elisions=

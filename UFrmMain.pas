@@ -1382,13 +1382,6 @@ var sLine, sColumn, sMixinLine:ansistring;
 begin
   msg:=listitem(msg, 0, #10); //first line only
   for et:=low(TErrorType) to high(TErrorType)do begin
-    if IsWild2('*(*,*): '+ErrorTitle[et]+':*', msg, result.fileName, sLine, sColumn, result.msg)then begin
-      result.typ:=et;
-      result.line  :=StrToIntDef(sLine,   -1);
-      result.column:=StrToIntDef(sColumn, -1);
-      result.valid:=fileExists(result.filename);
-      exit;
-    end;
     if IsWild2('*-mixin-*(*,*): '+ErrorTitle[et]+':*', msg, result.fileName, sMixinLine, sLine, sColumn, result.msg)then begin
       result.typ:=et;
       result.line  :=StrToIntDef(sLine,   -1);
@@ -1396,7 +1389,7 @@ begin
       result.valid:=fileExists(result.filename);
       exit;
     end;
-    if IsWild2('*(*,*):   *', msg, result.fileName, sLine, sColumn, result.msg)then begin
+    if IsWild2('*-mixin-*(*,*):   *', msg, result.fileName, sMixinLine, sLine, sColumn, result.msg)then begin
       result.typ:=etError;  //todo: go back in list to find errortype
       result.line  :=StrToIntDef(sLine,   -1);
       result.column:=StrToIntDef(sColumn, -1);
@@ -1404,7 +1397,14 @@ begin
       result.valid:=fileExists(result.filename);
       exit;
     end;
-    if IsWild2('*-mixin-*(*,*):   *', msg, result.fileName, sMixinLine, sLine, sColumn, result.msg)then begin
+    if IsWild2('*(*,*): '+ErrorTitle[et]+':*', msg, result.fileName, sLine, sColumn, result.msg)then begin
+      result.typ:=et;
+      result.line  :=StrToIntDef(sLine,   -1);
+      result.column:=StrToIntDef(sColumn, -1);
+      result.valid:=fileExists(result.filename);
+      exit;
+    end;
+    if IsWild2('*(*,*):   *', msg, result.fileName, sLine, sColumn, result.msg)then begin
       result.typ:=etError;  //todo: go back in list to find errortype
       result.line  :=StrToIntDef(sLine,   -1);
       result.column:=StrToIntDef(sColumn, -1);
