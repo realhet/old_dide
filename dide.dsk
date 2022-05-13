@@ -15,21 +15,16 @@ File_12=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE
 File_13=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.ComCtrls.pas',0,1,7014,1,7037,0,0,{{16974,0}
 
 [Modules]
-Module0=C:\D\dide\UFrmMain.pas
-Module1=f:\hetlib\het.codeeditor.pas
-Module2=C:\D\dide\dide.dproj
-Module3=C:\D\dide\UFrmCodeInsight.pas
-Module4=f:\hetlib\het.Utils.pas
+Module0=f:\hetlib\het.Utils.pas
+Module1=C:\D\dide\dide.dproj
+Module2=f:\hetlib\het.codeeditor.pas
+Module3=C:\D\dide\UFrmMain.pas
+Module4=C:\D\dide\UFrmCodeInsight.pas
 Module5=default.htm
 Count=6
 EditWindowCount=1
 
-[C:\D\dide\UFrmMain.pas]
-ModuleType=TSourceModule
-FormState=1
-FormOnTop=0
-
-[f:\hetlib\het.codeeditor.pas]
+[f:\hetlib\het.Utils.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
@@ -37,14 +32,19 @@ FormOnTop=0
 [C:\D\dide\dide.dproj]
 ModuleType=TBaseProject
 
-[C:\D\dide\UFrmCodeInsight.pas]
+[f:\hetlib\het.codeeditor.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[C:\D\dide\UFrmMain.pas]
 ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
 
-[f:\hetlib\het.Utils.pas]
+[C:\D\dide\UFrmCodeInsight.pas]
 ModuleType=TSourceModule
-FormState=0
+FormState=1
 FormOnTop=0
 
 [default.htm]
@@ -52,7 +52,7 @@ ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=6
-CurrentEditView=C:\D\dide\UFrmMain.pas
+CurrentEditView=f:\hetlib\het.Utils.pas
 View0=0
 View1=1
 View2=2
@@ -106,20 +106,20 @@ EditViewName=C:\D\dide\UFrmCodeInsight.pas
 [View2]
 CustomEditViewType=TEditView
 Module=C:\D\dide\UFrmMain.pas
-CursorX=76
-CursorY=1850
-TopLine=1833
+CursorX=21
+CursorY=1407
+TopLine=1364
 LeftCol=1
 Elisions=
-Bookmarks={1,1780,44}
+Bookmarks={1,1795,44}
 EditViewName=C:\D\dide\UFrmMain.pas
 
 [View3]
 CustomEditViewType=TEditView
 Module=f:\hetlib\het.codeeditor.pas
-CursorX=24
-CursorY=15
-TopLine=1
+CursorX=1
+CursorY=1274
+TopLine=1248
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -128,9 +128,9 @@ EditViewName=f:\hetlib\het.codeeditor.pas
 [View4]
 CustomEditViewType=TEditView
 Module=f:\hetlib\het.Utils.pas
-CursorX=27
-CursorY=246
-TopLine=234
+CursorX=40
+CursorY=6140
+TopLine=6102
 LeftCol=1
 Elisions=
 Bookmarks=
