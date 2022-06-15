@@ -15,22 +15,26 @@ File_12=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE
 File_13=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\10.0\SOURCE\VCL\Vcl.ComCtrls.pas',0,1,7014,1,7037,0,0,{{16974,0}
 
 [Modules]
-Module0=C:\D\dide\UFrmMain.pas
+Module0=C:\D\libs\dvulkan\functions.d
 Module1=C:\D\dide\dide.dproj
-Module2=f:\hetlib\het.codeeditor.pas
-Module3=f:\hetlib\het.Utils.pas
-Module4=C:\D\dide\UFrmCodeInsight.pas
-Module5=default.htm
-Count=6
+Module2=C:\D\dide\UFrmMain.pas
+Module3=f:\hetlib\het.codeeditor.pas
+Module4=f:\hetlib\het.Utils.pas
+Module5=C:\D\dide\UFrmCodeInsight.pas
+Module6=default.htm
+Count=7
 EditWindowCount=1
+
+[C:\D\libs\dvulkan\functions.d]
+ModuleType=TSourceModule
+
+[C:\D\dide\dide.dproj]
+ModuleType=TBaseProject
 
 [C:\D\dide\UFrmMain.pas]
 ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
-
-[C:\D\dide\dide.dproj]
-ModuleType=TBaseProject
 
 [f:\hetlib\het.codeeditor.pas]
 ModuleType=TSourceModule
@@ -51,14 +55,15 @@ FormOnTop=0
 ModuleType=TURLModule
 
 [EditWindow0]
-ViewCount=6
-CurrentEditView=C:\D\dide\UFrmMain.pas
+ViewCount=7
+CurrentEditView=C:\D\libs\dvulkan\functions.d
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
 View5=5
+View6=6
 PercentageSizes=1
 Create=1
 Visible=1
@@ -116,6 +121,17 @@ EditViewName=C:\D\dide\UFrmMain.pas
 
 [View3]
 CustomEditViewType=TEditView
+Module=C:\D\libs\dvulkan\functions.d
+CursorX=58
+CursorY=19
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\D\libs\dvulkan\functions.d
+
+[View4]
+CustomEditViewType=TEditView
 Module=f:\hetlib\het.codeeditor.pas
 CursorX=1
 CursorY=1274
@@ -125,7 +141,7 @@ Elisions=
 Bookmarks=
 EditViewName=f:\hetlib\het.codeeditor.pas
 
-[View4]
+[View5]
 CustomEditViewType=TEditView
 Module=f:\hetlib\het.Utils.pas
 CursorX=40
@@ -136,7 +152,7 @@ Elisions=
 Bookmarks=
 EditViewName=f:\hetlib\het.Utils.pas
 
-[View5]
+[View6]
 CustomEditViewType=TEditView
 Module=C:\D\dide\dide.dpr
 CursorX=22
